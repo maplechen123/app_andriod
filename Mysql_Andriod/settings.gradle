@@ -1,0 +1,2 @@
+rootProject.name='Mysql_Andriod'
+include ':app'

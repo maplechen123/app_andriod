@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="冰岛发现40种病毒变体"
+        style="@style/TextFirstFont"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2020-03-30 09:51"
+        style="@style/TextSecondFont"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    据冰岛国家广播公司网站3月24日报道，冰岛德科德基因公司的主管卡里·斯特凡松近日在接受新闻采访时说，到目前为止，该公司已经对冰岛新冠肺炎检测中发现的大约40种新冠病毒变体进行了基因测序，并发现有一人同时感染了两种新冠病毒变体。"
+        style="@style/TextFont"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/cell"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    而针对一人同时感染两种新冠病毒变体的情况，卡里介绍说：“我们发现一个人感染了两种病毒变体：其中一种是带有特定变异的病毒，另一种是没有这种变异的病毒。而后来感染的人都只感染了带有特定变异的病毒。”
+
+这意味着什么？他说：“这可能只是巧合，但也可能意味着带有特定变异的病毒比没有变异的病毒更致命。我们现在不能确定是哪种情况。”此外，卡里还指出，他们追溯到了每一种病毒变体来自的地区。他说：“有些变体来自奥地利，有一种变体来自在意大利被感染的人，还有一种变体出现在那些在英国被感染的人身上。”
+
+新冠病毒正在变异，有个事实不容忽视
+
+美媒称，随着时间的推移，引发新冠肺炎的冠状病毒正在发生变异。不过，仅仅因为病毒在变异并不意味着它会突然变得更加危险。
+
+据美国《大众科学》月刊网站3月25日报道，位于康涅狄格州纽黑文的耶鲁大学公共卫生学院病毒学家内森·格鲁博说：“这种病毒变异或演变的速度并不出人意料；这完全符合我们对这样一种病毒的预期。所有病毒都在不断演变，总的来说，不应该对这个过程有任何的担忧。”"
+        style="@style/TextFont"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+
+</ScrollView>
